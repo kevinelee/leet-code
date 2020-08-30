@@ -6,7 +6,7 @@ var twoSum = function(nums, target) {
   var hash = {};
   var len = nums.length;
   for (var i = 0; i < len; i++) {
-    let current = nums[i]
+    let current = nums[i] 
     let needed = target - current;
 
     if (current in hash) {
