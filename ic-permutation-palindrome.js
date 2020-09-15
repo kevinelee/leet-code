@@ -10,5 +10,8 @@ function hasPalindromePermutation(theString) {
     }
   }
 
+  console.log(unpairedCharacters);
+  
   return unpairedCharacters.size <= 1;
+
 }
